@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>TwitterFon</string>
+		<key>template</key>
+		<string>twitterfon:///message?%@</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Twitterrific</string>
+		<key>template</key>
+		<string>twitterrific:///post?message=%@</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tweetie</string>
+		<key>template</key>
+		<string>tweetie:///post?message=%@</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Twittelator</string>
+		<key>template</key>
+		<string>twit:///post?message=%@</string>
+	</dict>
+</array>
+</plist>
