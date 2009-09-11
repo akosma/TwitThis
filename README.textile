@@ -1,6 +1,10 @@
 h1. TwitThis - Use Multiple Twitter Clients on your iPhone Application
 
-This application has the following features:
+TwitThis allows you to easily choose a Twitter client from a configurable list.
+
+!http://kosmaczewski.net/wp-content/uploads/2009/09/TwitThis.png!
+
+h2. Features
 
 * The class TwitterClientManager loads a list list of supported Twitter clients is loaded from a plist file, which can be extended to support more clients in the future;
 * Each Twitter client is represented by an instance of the TwitterClient class;
