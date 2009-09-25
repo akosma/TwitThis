@@ -24,18 +24,20 @@
 			<key>Values</key>
 			<array>
 				<string>None</string>
-				<string>TwitterFon</string>
+				<string>Echofon</string>
 				<string>Twitterriffic</string>
 				<string>Tweetie</string>
 				<string>Twittelator</string>
+				<string>Twinkle</string>
 			</array>
 			<key>Titles</key>
 			<array>
 				<string>None</string>
-				<string>TwitterFon</string>
+				<string>Echofon</string>
 				<string>Twitterriffic</string>
 				<string>Tweetie</string>
 				<string>Twittelator</string>
+				<string>Twinkle</string>
 			</array>
 		</dict>
 	</array>

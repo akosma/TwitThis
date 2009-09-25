@@ -23,7 +23,6 @@
     [super viewDidLoad];
     _clientManager = [TwitterClientManager sharedTwitterClientManager];
     _clients = [[_clientManager supportedClients] retain];
-    self.tableView.scrollEnabled = NO;
 }
 
 - (void)didReceiveMemoryWarning 
@@ -57,7 +56,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.section == 0)
+    if (indexPath.section == 1)
     {
         return 60.0;
     }
@@ -66,7 +65,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
 {
-    if (section == 0)
+    if (section == 1)
     {
         return [_clients count];
     }
@@ -75,7 +74,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    if (section == 0)
+    if (section == 1)
     {
         return @"Supported Twitter Clients";
     }
@@ -84,7 +83,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
 {
-    if (section == 1)
+    if (section == 0)
     {
         return @"You can also change the value of your current Twitter client in the Settings application.";
     }
@@ -94,7 +93,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
 {
     UITableViewCell *cell = nil;
-    if (indexPath.section == 0)
+    if (indexPath.section == 1)
     {
         TwitterClient *client = [_clients objectAtIndex:indexPath.row];
         static NSString *cellIdentifier = @"TwitterClientCell";
@@ -119,7 +118,7 @@
         cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@.png", client.name]];
         return cell;
     }
-    else if (indexPath.section == 1)
+    else
     {
         static NSString *anotherIdentifier = @"AnotherIdentifier";
         cell = [tableView dequeueReusableCellWithIdentifier:anotherIdentifier];
@@ -145,7 +144,7 @@
 {
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    if (indexPath.section == 0)
+    if (indexPath.section == 1)
     {
         TwitterClient *client = [_clients objectAtIndex:indexPath.row];
         [_clientManager setSelectedClientName:client.name];
@@ -168,7 +167,7 @@
             [alert release];
         }
     }
-    else if (indexPath.section == 1)
+    else
     {
         if ([_clientManager isAnyClientAvailable])
         {

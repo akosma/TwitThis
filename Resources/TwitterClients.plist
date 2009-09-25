@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string>TwitterFon</string>
+		<string>Echofon</string>
 		<key>template</key>
 		<string>twitterfon:///message?%@</string>
 	</dict>
@@ -25,6 +25,12 @@
 		<string>Twittelator</string>
 		<key>template</key>
 		<string>twit:///post?message=%@</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Twinkle</string>
+		<key>template</key>
+		<string>twinkle://message=%@</string>
 	</dict>
 </array>
 </plist>
