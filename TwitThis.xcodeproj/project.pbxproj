@@ -35,6 +35,7 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* TwitThis_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitThis_Prefix.pch; sourceTree = "<group>"; };
+		3A4E1C19108BB4FD00FF1E9F /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		3A7D4832106D1C24007B63B4 /* Twinkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twinkle.png; sourceTree = "<group>"; };
 		3A7D4835106D1C30007B63B4 /* Echofon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Echofon.png; sourceTree = "<group>"; };
 		3ACD6771105AC14100CC3E12 /* TwitThisAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitThisAppDelegate.h; sourceTree = "<group>"; };
@@ -143,6 +144,7 @@
 		3ACD6776105AC14100CC3E12 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				3A4E1C19108BB4FD00FF1E9F /* SynthesizeSingleton.h */,
 				3ACD679F105AC20C00CC3E12 /* TwitterClient.h */,
 				3ACD67A0105AC20C00CC3E12 /* TwitterClient.m */,
 				3ACD67A1105AC20C00CC3E12 /* TwitterClientManager.h */,
