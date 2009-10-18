@@ -9,6 +9,7 @@
 #import "TwitterClientManager.h"
 #import "TwitterClient.h"
 #import "Definitions.h"
+#import "SynthesizeSingleton.h"
 
 @interface TwitterClientManager (Private)
 - (void)initializeClients;
@@ -19,21 +20,7 @@
 
 @synthesize currentClient = _currentClient;
 
-#pragma mark -
-#pragma mark Static methods
-
-+ (TwitterClientManager *)sharedTwitterClientManager
-{
-    static TwitterClientManager *client;
-    @synchronized(client)
-    {
-        if (client == nil)
-        {
-            client = [[TwitterClientManager alloc] init];
-        }
-    }
-    return client;
-}
+SYNTHESIZE_SINGLETON_FOR_CLASS(TwitterClientManager)
 
 #pragma mark -
 #pragma mark Init and dealloc
