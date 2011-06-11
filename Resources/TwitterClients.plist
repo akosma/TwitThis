@@ -4,6 +4,12 @@
 <array>
 	<dict>
 		<key>name</key>
+		<string>Tweetbot</string>
+		<key>template</key>
+		<string>tweetbot:///post?text=%@</string>
+	</dict>
+	<dict>
+		<key>name</key>
 		<string>Twitterrific</string>
 		<key>template</key>
 		<string>twitterrific:///post?message=%@</string>

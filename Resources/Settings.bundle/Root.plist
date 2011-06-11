@@ -20,6 +20,7 @@
 			<key>Titles</key>
 			<array>
 				<string>None</string>
+				<string>Tweetbot</string>
 				<string>Twitterrific</string>
 				<string>Twitter for iPhone</string>
 				<string>Twittelator</string>
@@ -29,6 +30,7 @@
 			<key>Values</key>
 			<array>
 				<string>None</string>
+				<string>Tweetbot</string>
 				<string>Twitterrific</string>
 				<string>Twitter for iPhone</string>
 				<string>Twittelator</string>
