@@ -285,6 +285,7 @@
 				GCC_PREFIX_HEADER = TwitThis_Prefix.pch;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "TwitThis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = TwitThis;
 			};
 			name = Debug;
@@ -297,6 +298,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TwitThis_Prefix.pch;
 				INFOPLIST_FILE = "TwitThis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = TwitThis;
 			};
 			name = Release;
@@ -305,12 +307,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos5.0;
 			};
 			name = "Distribution Ad Hoc";
 		};
@@ -324,6 +328,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TwitThis_Prefix.pch;
 				INFOPLIST_FILE = "TwitThis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = TwitThis;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 			};
@@ -333,12 +338,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos5.0;
 			};
 			name = Debug;
 		};
@@ -346,12 +353,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos5.0;
 			};
 			name = Release;
 		};

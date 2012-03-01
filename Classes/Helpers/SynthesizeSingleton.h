@@ -43,26 +43,3 @@ static classname *shared##classname = nil; \
 	return nil; \
 } \
  \
-- (id)copyWithZone:(NSZone *)zone \
-{ \
-	return self; \
-} \
- \
-- (id)retain \
-{ \
-	return self; \
-} \
- \
-- (NSUInteger)retainCount \
-{ \
-	return NSUIntegerMax; \
-} \
- \
-- (void)release \
-{ \
-} \
- \
-- (id)autorelease \
-{ \
-	return self; \
-}

@@ -14,7 +14,6 @@
 {
 @private
     NSArray *_clients;
-    UINavigationController *_navController;
     TwitterClientManager *_clientManager;
 }
 
