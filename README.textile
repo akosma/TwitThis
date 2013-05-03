@@ -2,7 +2,7 @@ h1. TwitThis - Use Multiple Twitter Clients on your iPhone Application
 
 TwitThis allows you to easily choose a Twitter client from a configurable list.
 
-!http://kosmaczewski.net/wp-content/uploads/2009/09/TwitThis.png!
+!http://joepasq.com/TwitThis.png!
 
 h2. Features
 
@@ -10,4 +10,4 @@ h2. Features
 * Each Twitter client is represented by an instance of the TwitterClient class;
 * The user can choose his preferred Twitter client at any time, and launch the application by a simple touch; the TwitterClientManager class stores the selected value in the user settings.
 
-For the moment the application supports "TwitterFon":http://twitterfon.net/, "Twitterrific":http://iconfactory.com/software/twitterrific, "Tweetie":http://www.atebits.com/tweetie-iphone/ and "Twittelator":http://www.stone.com/Twittelator/, but it can be extended to other clients easily.
+For the moment the application supports "Tweetbot":http://tapbots.com/tweetbot, "Twitterrific":http://iconfactory.com/software/twitterrific, "Twitter for iPhone":http://itunes.apple.com/us/app/twitter/id333903271?mt=8 and "Twittelator":http://www.stone.com/Twittelator/, but it can be extended to other clients easily.

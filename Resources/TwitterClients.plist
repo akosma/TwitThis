@@ -4,9 +4,9 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string>Echofon</string>
+		<string>Tweetbot</string>
 		<key>template</key>
-		<string>twitterfon:///message?%@</string>
+		<string>tweetbot:///post?text=%@</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -16,7 +16,7 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Tweetie</string>
+		<string>Twitter for iPhone</string>
 		<key>template</key>
 		<string>tweetie:///post?message=%@</string>
 	</dict>
@@ -25,12 +25,6 @@
 		<string>Twittelator</string>
 		<key>template</key>
 		<string>twit:///post?message=%@</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Twinkle</string>
-		<key>template</key>
-		<string>twinkle://message=%@</string>
 	</dict>
 </array>
 </plist>
